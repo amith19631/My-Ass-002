@@ -81,6 +81,9 @@
 }
 
 @media screen and (max-width:576px){
+    .navbar{
+        margin-left: -50px;
+    }
     .nav-links {
       display: none; 
       flex-direction: column;
@@ -145,6 +148,7 @@
         text-align: center;
         gap: 20;
         padding: 20px 0px 20px 0px;
+        margin-left: -100px;
     }
     .banner-content{
         max-width: 100%;
@@ -260,8 +264,14 @@
     font-size: large;
     font-weight: 700;
 }
-@media screen {
-    
+@media screen and (max-width:576px) {
+    .card-container{
+        flex-direction: column;
+        margin-left: -50px;
+    }
+    .arrow-btn{
+        display: none;
+    }
 }
 
 
@@ -395,6 +405,70 @@
     border: 0cap;
     box-shadow: 1px 1px 5px 1px;
 }
-@media screen {
-    
+@media screen and (max-width:576px){
+    .story-1{
+        display: none;
+    }
+    .s-container{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr)
+
+
+    }
+}
+.footer-content{
+  display: flex;
+}
+.footer-des{
+  font-size: medium;
+  font-weight: 300;
+  color: white;
+}
+.Footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  background-color: rgb(50, 194, 226);
+  padding: 80px 80px 80px 75px;
+  width: 113%;
+  margin-left: -130px;
+  margin-top: 50px;
+  height: 300px;
+}
+.f-a{
+  display: grid;
+}
+.f-a a{
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.logos-des{
+  color: white;
+}
+.about-des{
+  color: white;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.kid-des{
+  color: white;
+  font-size: 1.6rem;
+  padding: 5px;
+}
+.kid-img{
+  padding: 10px;
+}
+
+
+@media screen and (max-width:576px) {
+    .Footer{
+        flex-direction: column;
+        margin-left: -50px;
+        width: 442.3px;
+        height: 450px;
+    }
 }
