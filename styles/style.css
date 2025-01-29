@@ -80,7 +80,7 @@
     background-color: white;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:576px){
     .nav-links {
       display: none; 
       flex-direction: column;
@@ -139,7 +139,7 @@
     height: auto;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:576px){
     .banner{
         flex-direction: column-reverse;
         text-align: center;
@@ -150,7 +150,7 @@
         max-width: 100%;
         padding: 5px;
         text-align: center;
-        width: auto;
+        /* width: auto; */
     }
     .banner-img{
         margin-bottom: 40px;
@@ -167,4 +167,234 @@
         width: 100%;
         margin: 0 auto;
     }
+}
+
+/* Main  */
+.bg-img{
+    background:url(../assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.title-1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 80px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.card-container{
+    display: flex;
+    padding: 20px;
+    width: 80%;
+    margin: 160px;
+    gap: 30px;
+    text-align: center;
+    font-size: large;
+    margin-top: 50px;
+}
+
+.Card-1{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    width: 500px;
+    padding: 20px;
+}
+.Card-2{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    width: 500px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    padding: 20px;
+}
+.Card-3{
+    padding: 20px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    width:500px
+}
+.read-more-1{
+    font-weight: 700;
+   text-decoration: none;
+    color: rgb(100, 200, 255)
+    
+}
+.read-more-2{
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(135, 0, 255)
+}
+.read-more-3{
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(240, 170, 0);
+}
+.arrow-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+    
+   
+}
+.arrow-btn-1{
+    background-color: rgb(254, 163, 1);
+    width: 50px;
+    height: 50px;
+    border-radius: 38px;
+    font-size: large;
+    font-weight: 700;
+}
+.arrow-btn-2{
+    background-color: rgb(254, 163, 1);
+    width: 50px;
+    height: 50px;
+    border-radius: 38px;
+    font-size: large;
+    font-weight: 700;
+}
+@media screen {
+    
+}
+
+
+.title-2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 80px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.story-1{
+    grid-area: story-1;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 1px 2px 5px 2px;
+    height: fit-content;
+  }
+  .story-2{
+    grid-area: story-2;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 2px 5px 2px;
+  }
+  .story-3{
+    grid-area: story-3;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 2px 5px 2px;
+  }
+  .story-4{
+    grid-area: story-4;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 2px 5px 2px;
+  }
+  .story-5{
+    grid-area: story-5;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px 2px;
+  }
+  .s-container{
+    display: grid;
+    gap: 20px;
+    width: 80%;
+    margin: 160px;
+    text-align: center;
+    margin-top: 50px;
+    grid-template-areas: 
+    "story-1 story-2 story-3"
+    "story-1 story-4 story-5"
+  }
+  .img-1{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+  }
+  .img-2{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+.img-3{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+.img-4{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+.img-5{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+.s-btn-1{
+    border: none; 
+    background: rgb(60, 216, 232);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.s-btn-2{
+    border: none; 
+    background: rgb(149, 178, 38);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.s-btn-3{
+    border: none; 
+    background: rgb(149, 178, 38);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer
+}
+.s-btn-4{
+    border: none; 
+    background: rgb(149, 178, 38);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer
+}
+.s-btn-5{
+    border: none; 
+    background: rgb(0, 127, 136);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer
+}
+.s-text{
+    text-align: center;
+    padding: 10px;
+     font-size: medium;
+}
+.p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.main-btn{
+    margin-left: 650px;
+    margin-top: 50px;
+    width: 150px;
+    height:40px;
+    border-radius: 10px;
+    background-color: rgb(13, 182, 182);
+    font-size: medium;
+    font-weight: 600;
+    border: 0cap;
+    box-shadow: 1px 1px 5px 1px;
+}
+@media screen {
+    
 }
